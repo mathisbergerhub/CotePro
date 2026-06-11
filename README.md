@@ -1,18 +1,15 @@
 # CotePro
 
-Prototype local d'application de prise de cotes menuiserie.
+Reproduction locale autonome de l'application Base44 CotePro pour la prise de cotes menuiserie.
 
-## Contenu du MVP
+## Contenu
 
-- Création visuelle d'un dossier chantier.
-- Liste de menuiseries avec sélection.
-- Checklists de mesures par produit.
-- Choix du type de pose et du sens d'ouverture.
-- Photos guidées simulées.
-- Score de complétude.
-- Alertes techniques simples.
-- Actions de démonstration : enregistrer, exporter, partager, valider.
+- Ecran de connexion inspire de l'application originale.
+- Tableau de bord, liste chantier, detail chantier et edition menuiserie.
+- Donnees synchronisees depuis le chantier Base44 `6a27e513ff83f3666b83eeae`.
+- Bibliotheque technique reprise du bundle Base44.
+- Configuration `vercel.json` pour les routes SPA sur Vercel.
 
 ## Lancer l'application
 
-Ouvrir `index.html` dans un navigateur.
+Ouvrir `index.html` dans un navigateur, puis se connecter avec n'importe quel email/mot de passe pour entrer dans la reproduction locale.
